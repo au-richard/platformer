@@ -3,13 +3,11 @@
   "resourceVersion": "1.6",
   "name": "gamemaker-test",
   "resources": [
-    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":3,},
-    {"id":{"name":"WaterMage_Idle","path":"sprites/WaterMage_Idle/WaterMage_Idle.yy",},"order":0,},
-    {"id":{"name":"Walk","path":"objects/Walk/Walk.yy",},"order":1,},
-    {"id":{"name":"WaterMage_Surf","path":"sprites/WaterMage_Surf/WaterMage_Surf.yy",},"order":2,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":15,},
-    {"id":{"name":"WaterMage_Walk","path":"sprites/WaterMage_Walk/WaterMage_Walk.yy",},"order":1,},
-    {"id":{"name":"Idle","path":"objects/Idle/Idle.yy",},"order":0,},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},"order":1,},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -17,7 +15,7 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
