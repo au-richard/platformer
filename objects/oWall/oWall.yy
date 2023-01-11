@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object2",
+  "name": "oWall",
   "spriteId": {
     "name": "sWall",
     "path": "sprites/sWall/sWall.yy",
