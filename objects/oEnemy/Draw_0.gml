@@ -1,3 +1,5 @@
+/// @description Display white outline once hit
+
 //Displaying white outline once hit
 draw_self();
 
