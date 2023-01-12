@@ -1,3 +1,4 @@
+//Displaying white outline once hit
 draw_self();
 
 if (flash > 0) {
