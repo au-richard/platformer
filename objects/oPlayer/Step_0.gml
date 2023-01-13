@@ -1,10 +1,19 @@
-//GEt Player Input
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
-;
+#region //Get Player Input
 
-//Calculate Movement
+if (hascontrol) {
+	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
+	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+	key_jump = keyboard_check(vk_space) || keyboard_check(ord("W"));
+} else {
+	key_right = 0;
+	key_left = 0;
+	key_jump = 0;
+}
+
+#endregion
+
+#region //Calculate Movement
+
 var move = key_right - key_left;
 
 hsp = move * walksp;
@@ -54,3 +63,5 @@ if (!place_meeting(x, y + 1, oWall)) {
 
 //Horizontally flip sprite
 if (hsp != 0) image_xscale = sign(hsp);
+
+#endregion
