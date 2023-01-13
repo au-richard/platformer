@@ -14,6 +14,7 @@
     {"id":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"order":8,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":5,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
+    {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":10,},
     {"id":{"name":"sEnemyR","path":"sprites/sEnemyR/sEnemyR.yy",},"order":7,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
