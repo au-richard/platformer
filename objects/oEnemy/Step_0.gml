@@ -38,4 +38,5 @@ if (!place_meeting(x, y + 1, oWall)) {
 }
 
 //Horizontally flip sprite
-if (hsp != 0) image_xscale = sign(hsp);
+if (hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;
