@@ -5,3 +5,5 @@ done = 0;
 //Bigger screen shake on death
 ScreenShake(6, 25);
 image_speed = 0;
+
+audio_play_sound(snDeath, 10, false);
