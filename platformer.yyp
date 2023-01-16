@@ -10,6 +10,7 @@
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":11,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
     {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":1,},
+    {"id":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"order":10,},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},"order":9,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
