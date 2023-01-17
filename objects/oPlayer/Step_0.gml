@@ -20,8 +20,11 @@ hsp = move * walksp;
 
 vsp += grv;
 
-if ((place_meeting(x, y + 1, oWall)) && (key_jump)) {
-	vsp = -4;
+//Jumping
+canjump -= 1;
+if ((canjump > 0) && (key_jump)) {
+	vsp = -7;
+	canjump = 0;
 }
 
 //Horizontal Collision
@@ -54,6 +57,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 	}
 	//image_index = (sign(vsp) > 0) ? image_index = 1 : image_index = 0;
 } else {
+	canjump = 10;
 	if (sprite_index == sPlayerA) {
 		audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2));
 		audio_play_sound(snLanding, 4, false);
