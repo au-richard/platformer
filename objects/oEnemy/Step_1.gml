@@ -7,5 +7,6 @@ if (hp <= 0) {
 		vsp = lengthdir_y(3, direction) - 2;
 		if (sign(hsp) != 0) image_xscale = sign(hsp) * other.size;
 	}
+	with (mygun) instance_destroy();
 	instance_destroy();
 }
