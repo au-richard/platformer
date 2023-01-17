@@ -26,7 +26,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38CEFE2E","properties":[],"isDnd":false,"objectId":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1360.0,"y":480.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Entities","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1692384E","properties":[],"isDnd":false,"objectId":{"name":"oText","path":"objects/oText/oText.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A762FB9","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"text","path":"objects/oSign/oSign.yy",},"objectId":{"name":"oSign","path":"objects/oSign/oSign.yy",},"value":"\"Please don't murder anyone\\n-The Park Ranger\"",},
+          ],"isDnd":false,"objectId":{"name":"oSign","path":"objects/oSign/oSign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":523.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enemy","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E7F3537","properties":[],"isDnd":false,"objectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":480.0,},
@@ -269,7 +271,7 @@
     {"name":"inst_38CEFE2E","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_4794658B","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_6ECF6AEB","path":"rooms/rOne/rOne.yy",},
-    {"name":"inst_1692384E","path":"rooms/rOne/rOne.yy",},
+    {"name":"inst_2A762FB9","path":"rooms/rOne/rOne.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
