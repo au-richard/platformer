@@ -26,6 +26,11 @@ shake_remain = max(0, shake_remain - ((1 / shake_length) * shake_magnitude));
 //Update Camera View
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 
+if (room != rMenu) {
+	layer_x("Background", x / 2);
+	layer_y("Background", y - 180);
+}
+
 if (layer_exists(mountainLayer)) {
 	layer_x(mountainLayer, x / 2);
 }
