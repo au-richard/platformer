@@ -18,7 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bullets","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Gun","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E8FD1EB","properties":[],"isDnd":false,"objectId":{"name":"oGun","path":"objects/oGun/oGun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_711A4B7B","properties":[],"isDnd":false,"objectId":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":288.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DAC8E83","properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":544.0,},
@@ -204,7 +204,6 @@
     {"name":"inst_51D9CC62","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_9BDB65E","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_4DAC8E83","path":"rooms/rOne/rOne.yy",},
-    {"name":"inst_7E8FD1EB","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_6F688B53","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_5C67D474","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_2F620288","path":"rooms/rOne/rOne.yy",},
@@ -274,6 +273,7 @@
     {"name":"inst_6ECF6AEB","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_2A762FB9","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_11CEF697","path":"rooms/rOne/rOne.yy",},
+    {"name":"inst_711A4B7B","path":"rooms/rOne/rOne.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
