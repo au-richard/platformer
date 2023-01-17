@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oGunPickup",
   "spriteId": {
-    "name": "sGun",
-    "path": "sprites/sGun/sGun.yy",
+    "name": "sGun1",
+    "path": "sprites/sGun1/sGun1.yy",
   },
   "solid": false,
   "visible": true,
