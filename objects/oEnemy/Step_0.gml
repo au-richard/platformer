@@ -33,7 +33,6 @@ if (!place_meeting(x, y + 1, oWall)) {
 	} else {
 		image_index = 0;
 	}
-	//image_index = (sign(vsp) > 0) ? image_index = 1 : image_index = 0;
 } else {
 	grounded = true;
 	image_speed = 1;
