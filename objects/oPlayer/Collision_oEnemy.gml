@@ -1,3 +1,2 @@
 /// @description Die
-
-KillPlayer();
+if (global.hasgun == true) KillPlayer();
