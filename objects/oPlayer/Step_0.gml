@@ -16,9 +16,11 @@ if (hascontrol) {
 
 var move = key_right - key_left;
 
-hsp = move * walksp;
+hsp = (move * walksp) + gunkickx;
+gunkickx = 0;
 
-vsp += grv;
+vsp += grv + gunkicky;
+gunkicky = 0;
 
 //Jumping
 canjump -= 1;

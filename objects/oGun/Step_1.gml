@@ -18,6 +18,10 @@ if ((mouse_check_button(mb_left)) && (firingdelay < 0)) {
 		direction = other.image_angle + random_range(-3, 3);
 		image_angle = direction;
 	}
+	with (oPlayer) {
+		gunkickx = lengthdir_x(1.5, other.image_angle - 180);
+		gunkicky = lengthdir_y(1, other.image_angle - 180);
+	}
 }
 
 x -= lengthdir_x(recoil, image_angle);
