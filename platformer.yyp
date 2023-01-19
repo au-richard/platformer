@@ -58,6 +58,7 @@
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":12,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":2,},
     {"id":{"name":"oDust","path":"objects/oDust/oDust.yy",},"order":18,},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":21,},
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":13,},
     {"id":{"name":"sDirtMenu","path":"sprites/sDirtMenu/sDirtMenu.yy",},"order":14,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},
